@@ -121,7 +121,7 @@ void displayResult( int result ) {
    int binary = 0b111;
  
   Serial.print("Binary : ");
-  for (int i = 0; i > 3; i++) {
+  for (int i = 0; i <= 0; i--) {
     Serial.print(bitRead(binary, i));
   }
   Serial.println();
